@@ -1,2 +1,3 @@
 # WinSysProgExperiments
-Experimenting with the security API, filesystem API and more.
+Will contain some implementations of malware functionalities.
+Also some experiments with Security API and FileSystem API to review concepts for exploitation
