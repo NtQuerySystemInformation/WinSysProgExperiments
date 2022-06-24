@@ -7,4 +7,4 @@ This will be done with C/C++ (Modern C++ will be the focus).
 -Lateral movement. (WTS API)
 -Process Injection/Code injection. (Hooking/Dll/Exe)
 -IPC (Pipe)
--Privilege escalation (COM).
+-Privilege escalation (COM)
