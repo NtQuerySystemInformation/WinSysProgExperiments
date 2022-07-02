@@ -1,15 +1,21 @@
 # WinSysProgExperiments: Windows system programming experiments (User Mode)
 
-Some experiments based on some known malware techniques.
+Experiments to learn more about Windows Internals,
+Most projects here will be focused towards OOP in Modern C++.
 
-This will be done with C/C++ (Modern C++ will be the focus).
+Main objectives:
 
--Persistance. (schtasks)
+-Services, registry, file system API. 
+    -Known techniques for evading (Alternate data streams, Service for persistance)
+    
+-Process/thread internals and Memory management:
+      -Thread pool, Sections, Mapped files (PE).
+      -Loader initialization hooking.
 
--Lateral movement. (WTS API)
+-IPC and syncronization primitives (Pipes, shared mem, events, mailslots, etc).
+     -Basic server-client communication.
 
--Process Injection/Code injection. (Hooking/Dll/Exe)
+-Exception handling (SEH/VEH): Redirect execution with the Dridex way. 
 
--IPC (Pipe)
-
--Privilege escalation (COM).
+-COM/RPC, Security API: 
+      -Mainly privilege escalation.
